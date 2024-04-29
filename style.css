@@ -149,13 +149,13 @@ text-decoration:none;
 		background: #fff;
 	}
     #resultTable tr:hover {
-          background-color: #ffff99;
+          background-color: #ffff;
     }
 	
 
 #mainmain {
 	margin: 50px auto;
-	text-align: center;
+	text-align: left;
 	width: 980px;
 }
 #mainmain a {
@@ -166,17 +166,17 @@ text-decoration:none;
 	padding-right:15px;
 	border-radius:10px;
 	margin:10px;
-	box-shadow:0 5px 5px 2px #1f1a5f;
+	box-shadow:0 5px 5px 2px #ffff;
 	-moz-box-shadow:0 5px 5px 2px #522252;
 	-webkit-box-shadow:0 5px 5px 2px #06303f;
 	border:1px solid #48ba1f;
 	background: #3d2d9a;
 	color: #222222;
-	font-size:20px;
+	font-size:10px;
 	display: inline-block;
-	width: 255px;
-	height: 75px;
+	width: 405px;
+	height: 100px;
 	text-align: right;
 	margin-bottom: 5px;
-	/* Ce code a été modifie avec succès au niveau des couleurs et des tailles */
+	/* Ce code a été modifie avec succès au niveau des couleurs , des alignements et des tailles */
 }
