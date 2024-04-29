@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `collection` (
   `remarks` varchar(100) NOT NULL,
   `balance` int(11) NOT NULL,
   PRIMARY KEY (`transaction_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=18 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18 ;
 
 -- --------------------------------------------------------
 
@@ -165,7 +165,7 @@ CREATE TABLE IF NOT EXISTS `supliers` (
   `contact_person` varchar(100) NOT NULL,
   `note` varchar(500) NOT NULL,
   PRIMARY KEY (`suplier_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 -- --------------------------------------------------------
 
